@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Industrial Factory Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            factory: '#0f172a',
+            concrete: '#1e293b',
+            rust: '#b45309',
+            steel: '#475569'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-factory text-slate-200 scroll-smooth">
+
+<!-- HEADER -->
+<header class="border-b border-slate-700 bg-black/60 fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-black tracking-widest text-rust">FACTORY<span class="text-white">.PORTO</span></h1>
+    <nav class="hidden md:flex gap-8 text-sm">
+      <a href="#about" class="hover:text-rust">About</a>
+      <a href="#profile" class="hover:text-rust">Profile</a>
+      <a href="#skills" class="hover:text-rust">Skills</a>
+      <a href="#projects" class="hover:text-rust">Projects</a>
+      <a href="#experience" class="hover:text-rust">Experience</a>
+      <a href="#contact" class="hover:text-rust">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="min-h-screen flex items-center bg-gradient-to-tr from-black via-factory to-concrete">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <p class="uppercase tracking-widest text-rust mb-3">Industrial Style Portfolio</p>
+      <h2 class="text-5xl md:text-6xl font-black mb-6">Laura Putri Primanda</h2>
+      <p class="text-slate-300 leading-relaxed mb-8">
+        Pelajar Rekayasa Perangkat Lunak yang fokus pada pengembangan web, desain antarmuka, dan logika pemrograman. Terinspirasi dari dunia industri, pabrik, dan teknologi modern.
+      </p>
+      <div class="flex gap-4">
+        <a href="#projects" class="px-6 py-3 bg-rust text-black font-bold rounded-lg">View Work</a>
+        <a href="#contact" class="px-6 py-3 border border-rust text-rust rounded-lg hover:bg-rust hover:text-black">Contact</a>
+      </div>
+    </div>
+    <div class="hidden md:flex justify-center">
+      <div class="w-96 h-96 border-2 border-dashed border-slate-600 flex items-center justify-center text-slate-500">Industrial Image</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-28 max-w-7xl mx-auto px-6">
+  <h3 class="text-4xl font-extrabold mb-10 text-rust">About Me</h3>
+  <div class="grid md:grid-cols-2 gap-10">
+    <p class="leading-relaxed text-slate-300">
+      Saya adalah pelajar yang memiliki minat besar pada dunia teknologi dan industri digital. Terbiasa mengerjakan proyek berbasis web, memahami dasar pemrograman, dan terus mengembangkan kemampuan agar siap menghadapi dunia kerja industri.
+    </p>
+    <div class="space-y-4">
+      <p>📍 Domisili: Indonesia</p>
+      <p>🎓 Jurusan: Rekayasa Perangkat Lunak</p>
+      <p>💡 Minat: Web Development, UI Design</p>
+      <p>⚙️ Karakter: Disiplin, Tekun, Bertanggung Jawab</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILE DETAIL -->
+<section id="profile" class="py-28 bg-black/40">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-4xl font-extrabold mb-12 text-rust">Profile Detail</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-concrete p-6 rounded-xl border border-slate-700">
+        <h4 class="font-bold mb-3">Pendidikan</h4>
+        <p>SMK - RPL</p>
+        <p class="text-sm text-slate-400">2024 - Sekarang</p>
+      </div>
+      <div class="bg-concrete p-6 rounded-xl border border-slate-700">
+        <h4 class="font-bold mb-3">Tujuan Karier</h4>
+        <p class="text-sm text-slate-400">Menjadi Web Developer profesional di lingkungan industri.</p>
+      </div>
+      <div class="bg-concrete p-6 rounded-xl border border-slate-700">
+        <h4 class="font-bold mb-3">Nilai Kerja</h4>
+        <p class="text-sm text-slate-400">Konsistensi, efisiensi, dan kualitas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-28 max-w-7xl mx-auto px-6">
+  <h3 class="text-4xl font-extrabold mb-12 text-rust">Technical Skills</h3>
+  <div class="grid md:grid-cols-4 gap-6">
+    <div class="bg-concrete p-6 rounded-xl">HTML5</div>
+    <div class="bg-concrete p-6 rounded-xl">CSS3 / Tailwind</div>
+    <div class="bg-concrete p-6 rounded-xl">JavaScript</div>
+    <div class="bg-concrete p-6 rounded-xl">Java</div>
+    <div class="bg-concrete p-6 rounded-xl">Git & GitHub</div>
+    <div class="bg-concrete p-6 rounded-xl">UI Design</div>
+    <div class="bg-concrete p-6 rounded-xl">Problem Solving</div>
+    <div class="bg-concrete p-6 rounded-xl">Team Work</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-28 bg-black/40">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-4xl font-extrabold mb-12 text-rust">Projects</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-concrete p-6 rounded-xl border border-slate-700">
+        <h4 class="font-bold mb-2">Industrial Landing Page</h4>
+        <p class="text-sm text-slate-400">Landing page bertema industri menggunakan Tailwind CSS.</p>
+      </div>
+      <div class="bg-concrete p-6 rounded-xl border border-slate-700">
+        <h4 class="font-bold mb-2">Java Console App</h4>
+        <p class="text-sm text-slate-400">Aplikasi console untuk latihan logika pemrograman.</p>
+      </div>
+      <div class="bg-concrete p-6 rounded-xl border border-slate-700">
+        <h4 class="font-bold mb-2">Student Portfolio</h4>
+        <p class="text-sm text-slate-400">Website portofolio pelajar RPL.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="py-28 max-w-7xl mx-auto px-6">
+  <h3 class="text-4xl font-extrabold mb-12 text-rust">Experience & Achievements</h3>
+  <ul class="space-y-4">
+    <li class="border-l-4 border-rust pl-4">Mengikuti lomba IT tingkat sekolah</li>
+    <li class="border-l-4 border-rust pl-4">Menyelesaikan proyek web mandiri</li>
+    <li class="border-l-4 border-rust pl-4">Aktif dalam kegiatan pembelajaran RPL</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-28 bg-black/40">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-4xl font-extrabold mb-8 text-rust">Contact</h3>
+    <p class="mb-6 text-slate-400">Siap untuk berdis

@@ -502,7 +502,7 @@
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <h1>Hai, Saya Laura Putri Primanda</h1>
+                <h1>Halo, Saya Varazia Navasa </h1>
                 <p class="subtitle">Siswa SMK Rekayasa Perangkat Lunak</p>
                 <p>Saya adalah siswa SMK yang passionate dalam dunia software engineering. Saya senang belajar teknologi baru dan membuat aplikasi yang bermanfaat.</p>
                 <div class="buttons">
@@ -511,7 +511,7 @@
                 </div>
             </div>
             <div class="profile-image">
-                <img src="https://i.pinimg.com/736x/da/ae/27/daae27f49ebce8be321bbaf50de1bf0a.jpg">
+                <img src="img/zia kecil 1.jpg">
             </div>
         </div>
     </section>
@@ -524,7 +524,7 @@
             <div class="info-grid">
                 <div class="info-item">
                     <strong>Nama:</strong>
-                    Laura Putri Primanda 
+                    Varazia Navsa Prasetyo 
                 </div>
                 <div class="info-item">
                     <strong>Sekolah:</strong>
@@ -536,11 +536,11 @@
                 </div>
                 <div class="info-item">
                     <strong>Kelas:</strong>
-                    X RPL 2
+                    X RPL 4
                 </div>
                 <div class="info-item">
                     <strong>Email:</strong>
-                    lauraputriprimanda@gmail.com
+                    varazianavasa@gmail.com
                 </div>
                 <div class="info-item">
                     <strong>Lokasi:</strong>
@@ -638,7 +638,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026  Laura Putri Primanda  - Siswa SMK Rekayasa Perangkat Lunak</p>
+        <p>&copy; 2026  Varazia Navasa  - Siswa SMK Rekayasa Perangkat Lunak</p>
         <p style="margin-top: 10px;">Dibuat dengan ❤️ menggunakan HTML & CSS</p>
     </footer>
 

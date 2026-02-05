@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Industrial Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom Colors -->
+  <style type="text/tailwindcss">
+    @layer base {
+      :root {
+        --color-light: #E4E0E1;
+        --color-soft: #D6C0B3;
+        --color-medium: #AB886D;
+        --color-dark: #493628;
+      }
+    }
+    @layer utilities {
+      .bg-light { background-color: var(--color-light); }
+      .bg-soft { background-color: var(--color-soft); }
+      .bg-medium { background-color: var(--color-medium); }
+      .bg-dark { background-color: var(--color-dark); }
+      .text-light { color: var(--color-light); }
+      .text-soft { color: var(--color-soft); }
+      .text-medium { color: var(--color-medium); }
+      .text-dark { color: var(--color-dark); }
+      .border-dark { border-color: var(--color-dark); }
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            light: 'var(--color-light)',
+            soft: 'var(--color-soft)',
+            medium: 'var(--color-medium)',
+            dark: 'var(--color-dark)',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-light text-dark">
+
+  <!-- Header -->
+  <header class="bg-dark text-light py-4 px-6 flex justify-between items-center border-b-2 border-soft">
+    <div class="text-xl font-bold tracking-wider">INDUSTRIAL<span class="text-soft">.STUDIO</span></div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-soft transition">Home</a></li>
+        <li><a href="#work" class="hover:text-soft transition">Work</a></li>
+        <li><a href="#about" class="hover:text-soft transition">About</a></li>
+        <li><a href="#contact" class="hover:text-soft transition">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section dengan Foto & Nama -->
+  <section id="home" class="py-20 px-6 max-w-4xl mx-auto text-center">
+    <!-- Foto Profil -->
+    <div class="mb-6 flex justify-center">
+      <img 
+        src="c:\Users\LOQ\Pictures\Screenshots\Screenshot 2025-10-16 134258.png" 
+        alt="foto" 
+        class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-medium object-cover"
+      >
+    </div>
+
+    <!-- Nama & Judul -->
+    <h1 class="text-3xl md:text-4xl font-bold mb-2">Laura putri</h1>
+    <p class="text-medium italic mb-6">Industrial Designer & Creative Technologist</p>
+
+    <!-- Deskripsi -->
+    <p class="text-lg text-medium mb-8 max-w-2xl mx-auto">
+      Saya merancang solusi visual yang kuat, fungsional, dan terinspirasi dari estetika industri—dengan sentuhan manusia.
+    </p>
+
+    <!-- Tombol -->
+    <a href="#work" class="inline-block bg-medium text-light px-6 py-3 rounded hover:bg-dark transition">
+      Lihat Portofolio
+    </a>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="work" class="py-16 bg-soft">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12 text-dark">Selected Works</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white border-2 border-dark p-6 hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Factory Redesign</h3>
+          <p class="text-medium">Industrial UX overhaul for a manufacturing dashboard.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white border-2 border-dark p-6 hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Steel Branding</h3>
+          <p class="text-medium">Visual identity for a steel fabrication startup.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white border-2 border-dark p-6 hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Warehouse App</h3>
+          <p class="text-medium">Mobile logistics interface with rugged UI elements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-dark text-light py-8 text-center">
+    <p class="mb-2">Mari kolaborasi untuk proyek yang kuat dan bermakna.</p>
+    <p class="text-soft">© 2026 Nurul Aini — All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
